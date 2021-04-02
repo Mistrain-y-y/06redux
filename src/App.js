@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
+import Count from './components/Count'
 
 class App extends Component {
   render() {
     return (
-      <h2>hello redux!</h2>
+      <Count/>
     )
   }
 }
